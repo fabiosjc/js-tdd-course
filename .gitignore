@@ -74,3 +74,4 @@ typings/
 
 # History files
 .history
+/package-lock.json
