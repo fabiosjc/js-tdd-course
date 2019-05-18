@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>02 - This no Arrow Function</title>
+  </head>
+  <body>
+    <button id="btn">Click (sem arrow function)!</button>
+    <button id="btn-arrow">Click (arrow function)!</button>
+
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", function() {
+        console.log(this);
+      });
+
+      /**
+       * 'this' tem o mesmo valor do contexto em que a arrow function foi criada,
+       * no caso abaixo esse contexto é o Window
+       */
+      const btnArrow = document.getElementById("btn-arrow");
+      btnArrow.addEventListener("click", () => {
+        console.log(this);
+      });
+    </script>
+  </body>
+</html>
