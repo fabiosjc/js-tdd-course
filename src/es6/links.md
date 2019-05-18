@@ -9,3 +9,6 @@
 - Leituras Interessantes
   https://ponyfoo.com/articles/tagged/es6-in-depth
   https://nipher.io/
+
+- Arquivos das Aulas do Willian:
+  https://github.com/willianjusten/es6-curso
